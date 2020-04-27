@@ -1,0 +1,168 @@
+/* ..............import css.............. */
+@import url('https://unpkg.com/aos@next/dist/aos.css');
+/* ..............import css..............End */
+
+
+/* ..............Global Css.............. */
+*{
+  box-sizing: border-box;
+  line-height: 25px;
+  color: #222;
+  transition: .3s all;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+ul,ol{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+a{
+  color: #000;
+  text-decoration: none;
+}
+.border{
+  border: 2px solid red;
+}
+h6{
+  font-size: 10px;
+}
+h5{
+  font-size: 15px;
+}
+h4{
+  font-size: 20px;
+}
+h3{
+  font-size: 25px;
+}
+h2{
+  font-size: 30px;
+}
+h1{
+  font-size: 35px;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: 500;
+}
+.w-100{
+  width: 100%;
+}
+.h-280{
+  height: 280px;
+}
+img{
+  object-fit: cover;
+}
+button{
+    background: rgba(92, 66, 66, 0.14);
+    display: inline-block;
+    padding: 5px 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+button:hover{
+  background: rgba(92, 66, 66, 0.34);
+}
+input{
+  border: none;
+  background: rgba(92, 66, 66, 0.14) ;
+  padding: 5px 25px;
+
+}
+@media screen and (max-width: 300px){
+  .w-100sm{
+    width: 100%;
+  }
+}
+/* ..............Global Css.............. End*/
+/* .............Header ................. */
+header nav{
+  position: relative;
+}
+header nav a{
+  display: inline-block;
+  padding: 12px 25px;
+  text-transform: uppercase;
+}
+header nav a.logo{
+  padding-left: 0;
+}
+header nav a.travel{
+  padding-right: 0;
+}
+
+header .header_body{
+  height: 500px;
+  background: url('../img/minimo.jpg') center/cover no-repeat;
+}
+
+
+@media (max-width: 767px){
+  header nav{
+    background: rgba(0, 0, 0, 0.055);
+  }
+  header nav .category_menu{
+    position: absolute;
+    right: 0;
+    background: rgba(0, 0, 0, 0.055);
+    top: 100%;
+    
+  }
+  header nav .category_menu li:hover{
+    background: rgba(0, 0, 0, 0.24);
+  }
+  /* For js */
+   .hide{
+     opacity: 0;
+     height: 0px;
+     overflow: hidden;
+     transition: 1s;
+   }
+   .show{
+     opacity: 1;
+     height: 196px;
+   }
+
+}
+
+
+
+
+
+
+/* .............Header ................. End*/
+
+
+/* ............Section 3 .................. */
+.section_3 {
+  text-align: center;
+  background: #F0F0F0;
+}
+/* ............Section 3 ..................End */
+
+/* .............Footer ................. */
+footer{
+  background: #F0F0F0;
+}
+/* .............Footer .................End */
+/* ........For Nikhil Roy */
+.nikhilroy{
+  position: absolute;
+  padding: 0px 8px;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 2px;
+  background: rgb(230, 230, 230);
+  color: #555;
+  z-index: 100000;
+  border-radius: 30px;
+  transition: .5s;
+  top: 50%;
+  transform-origin: 0 40%;
+  transform:rotate(90deg) translateY(-50%) ;
+}
+/* ........For Nikhil Roy End */

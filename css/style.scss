@@ -1,0 +1,44 @@
+// ........... Global Settings.............
+// import font-family
+*{
+    box-sizing: border-box;
+    
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+// ........... Global Settings.............End
+// ........... Header .................
+header {
+    nav{
+        margin: 0;
+        padding: 0;
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            li{
+                a{
+                    @font-face {
+                        font-family: "play";
+                        src: url('../fonts/Playfair_Display/PlayfairDisplay-Regular.ttf');
+                    }
+                    font-family: "play";
+                }
+            }
+
+        }
+    }
+}
+
+
+// ........... Header .................End
+// ...........Footer ...............
+
+
+// ...........Footer ............End
